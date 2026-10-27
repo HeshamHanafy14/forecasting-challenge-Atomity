@@ -96,6 +96,14 @@ reports/        final report (md and pdf) and figures
 predictions.csv submission file (24 rows)
 ```
 
+## How this was built
+
+I developed this project with the help of Claude Code (Anthropic) as an AI coding
+and tutoring assistant. I used it to learn the time-series methods involved, to
+discuss modelling choices, and to draft code, tests and the report. I ran the code
+myself, reviewed every result, and went through the analysis and decisions step by
+step so that I can explain them.
+
 ## Limitations
 
 - Only 134 timestamps (about 11 hours): no daily seasonality can be learned.

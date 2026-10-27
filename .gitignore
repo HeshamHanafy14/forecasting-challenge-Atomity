@@ -1,0 +1,9 @@
+*.egg-info/
+.venv/
+.pytest_cache/
+__pycache__/
+.ipynb_checkpoints/
+
+# challenge data is a release asset, not part of the repository
+challenge_data/*.gz
+challenge_data/*.csv
